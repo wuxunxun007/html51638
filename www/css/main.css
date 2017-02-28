@@ -1,0 +1,78 @@
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);/* make transparent link selection, adjust last value opacity 0 to 1.0 */
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+body {
+  -webkit-touch-callout: none;/* prevent callout to copy image, etc when tap to hold */
+  -webkit-text-size-adjust: none;/* prevent webkit from resizing text to fit */
+  -webkit-user-select: none;/* prevent copy paste, to allow, change 'none' to 'text' */
+  font-family: 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  text-transform: uppercase;
+  width: 100%;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+}
+.container header {
+  margin-top: 16px;
+  height: 44px;
+  text-align: center;
+  line-height: 44px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #f66;
+}
+.container section {
+  background-color: #ccc;
+  flex: 1;
+}
+.container footer {
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+  background-color: #333;
+  color: #fff;
+}
+.map {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: none;
+}
+.selectAction {
+  position: absolute;
+  bottom: -90px;
+  left: 0;
+  width: 100%;
+  height: 90px;
+  border-top: 1px solid #999;
+  background-color: #fff;
+  transition: all 0.3s;
+}
+.selectAction li {
+  border-bottom: 1px solid #666;
+  text-align: center;
+  line-height: 30px;
+  color: #ccc;
+}
+.selectAction.active {
+  bottom: -0;
+}
+/*# sourceMappingURL=main.css.map */

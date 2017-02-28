@@ -1,0 +1,76 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "cn.qianfeng.html"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "cn.qianfeng.html"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "cn.qianfeng.html"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "cn.qianfeng.html"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "cn.qianfeng.html"
+        },
+        "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "cn.qianfeng.html"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "cn.qianfeng.html"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "cn.qianfeng.html"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "cn.qianfeng.html"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "cn.qianfeng.html"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "cn.qianfeng.html"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "cn.qianfeng.html"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "cn.qianfeng.html"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "cn.qianfeng.html"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "cn.qianfeng.html"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "cn.qianfeng.html"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "cn.qianfeng.html"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "cn.qianfeng.html"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "cn.qianfeng.html"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "cn.qianfeng.html"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "cn.qianfeng.html"
+        }
+    }
+}
